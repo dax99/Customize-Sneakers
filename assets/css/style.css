@@ -1,0 +1,600 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html ::-moz-selection {
+  color: white;
+  background-color: #019fd6;
+}
+
+html ::selection {
+  color: white;
+  background-color: #019fd6;
+}
+
+body #animatedModal, body #animatedModal2 {
+  background-color: #f7f7f7 !important;
+}
+
+body #animatedModal .close-animatedModal, body #animatedModal .close-animatedModal2, body #animatedModal2 .close-animatedModal, body #animatedModal2 .close-animatedModal2 {
+  height: 5%;
+  font-size: 2em;
+  color: #12adf5;
+}
+
+body #animatedModal .modal-content, body #animatedModal2 .modal-content {
+  height: 95%;
+  border: 0px;
+  overflow: hidden;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #animatedModal .container, body #animatedModal2 .container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+body #animatedModal #contact input[type="text"], body #animatedModal #contact select, body #animatedModal #contact select option, body #animatedModal #contact button[type="button"], body #animatedModal2 #contact input[type="text"], body #animatedModal2 #contact select, body #animatedModal2 #contact select option, body #animatedModal2 #contact button[type="button"] {
+  font: 400 12px/16px;
+}
+
+body #animatedModal #contact, body #animatedModal2 #contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0;
+}
+
+body #animatedModal span, body #animatedModal2 span {
+  color: #dd3232fb;
+}
+
+body #animatedModal #contact h3, body #animatedModal2 #contact h3 {
+  color: #0072ff;
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+body #animatedModal #contact h4, body #animatedModal2 #contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+}
+
+body #animatedModal select option, body #animatedModal2 select option {
+  margin: 0 0 10px;
+  min-width: 100%;
+  font-size: 1.2em !important;
+  text-align: center !important;
+  width: 100%;
+}
+
+body #animatedModal #contact input[type="text"], body #animatedModal #contact select, body #animatedModal #contact select option, body #animatedModal2 #contact input[type="text"], body #animatedModal2 #contact select, body #animatedModal2 #contact select option {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin: 0;
+  padding: 10px;
+}
+
+body #animatedModal #contact input[type="text"]:hover, body #animatedModal #contact select:hover, body #animatedModal2 #contact input[type="text"]:hover, body #animatedModal2 #contact select:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #AAA;
+}
+
+body #animatedModal #contact button[type="button"], body #animatedModal2 #contact button[type="button"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #0CF;
+  color: #FFF;
+  margin: 0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+body #animatedModal #contact button[type="button"]:hover, body #animatedModal2 #contact button[type="button"]:hover {
+  background: #09C;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+body #glass {
+  z-index: 100000;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  display: none;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+body #header {
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 99;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+body #header #nazad, body #header #nazad2 {
+  pointer-events: auto;
+  font-size: 25px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+body #header #nazad2 {
+  color: #0072ff !important;
+}
+
+body #header #logo {
+  pointer-events: auto;
+  width: 200px;
+}
+
+body h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 4em;
+  color: white;
+}
+
+body .hide {
+  visibility: hidden;
+}
+
+body .borderGreska {
+  border: 1px solid #dd3232fb !important;
+}
+
+body p {
+  font-size: 1.2rem;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+body .Damjan {
+  z-index: 99;
+  height: 35px;
+  position: fixed;
+  bottom: 40px;
+  left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .Damjan .slide-toggle2 {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #1055c3;
+  border-radius: 18px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+body .Damjan #podaci {
+  height: 70px;
+  display: none;
+}
+
+body .Damjan #podaci a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #1055c3;
+  border-radius: 18px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+body .drustvene {
+  z-index: 99;
+  height: 35px;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body .drustvene .slide-toggle {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #1055c3;
+  border-radius: 18px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+body .drustvene #social {
+  height: 70px;
+  display: none;
+}
+
+body .drustvene #social a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #1055c3;
+  border-radius: 18px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+body #omot1 {
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(#00c6ff, #0072ff);
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+body #omot1 #patika4 {
+  margin-top: 50px;
+}
+
+body #omot1 .svePatike {
+  margin-top: 100px;
+}
+
+body #omot1 #patikaSlika1 {
+  width: 300px;
+}
+
+body #omot1 #patikaSlika2 {
+  width: 250px;
+}
+
+body #omot1 #patikaSlika3 {
+  width: 390px;
+}
+
+body #omot1 #patikaSlika4 {
+  width: 400px;
+}
+
+body #omot1 #naslov {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body #omot1 #naslov #start {
+  background-color: #019fd6;
+  border: 0px;
+  width: 20rem;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+body #omot2, body #omot3, body #omot4 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  z-index: 97;
+}
+
+body #omot2 #red, body #omot2 #red3, body #omot2 #red4, body #omot3 #red, body #omot3 #red3, body #omot3 #red4, body #omot4 #red, body #omot4 #red3, body #omot4 #red4 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #13b3c1;
+}
+
+body #omot2 #red .AFJordan, body #omot2 #red3 .AFJordan, body #omot2 #red4 .AFJordan, body #omot3 #red .AFJordan, body #omot3 #red3 .AFJordan, body #omot3 #red4 .AFJordan, body #omot4 #red .AFJordan, body #omot4 #red3 .AFJordan, body #omot4 #red4 .AFJordan {
+  width: 400px;
+}
+
+body #omot2 #red #col1, body #omot2 #red3 #col1, body #omot2 #red4 #col1, body #omot3 #red #col1, body #omot3 #red3 #col1, body #omot3 #red4 #col1, body #omot4 #red #col1, body #omot4 #red3 #col1, body #omot4 #red4 #col1 {
+  background-color: #019fd6;
+  cursor: pointer;
+}
+
+body #omot2 #red #col2, body #omot2 #red3 #col2, body #omot2 #red4 #col2, body #omot3 #red #col2, body #omot3 #red3 #col2, body #omot3 #red4 #col2, body #omot4 #red #col2, body #omot4 #red3 #col2, body #omot4 #red4 #col2 {
+  cursor: pointer;
+}
+
+body .omotD {
+  width: 100%;
+  height: 100vh;
+  background-color: #019fd6;
+  z-index: 10000;
+}
+
+body .omotD #prvirow {
+  background-color: #fff;
+  width: 100%;
+  height: 90%;
+}
+
+body .omotD #prvirow #col10 {
+  background-color: white;
+}
+
+body .omotD #prvirow #col10 #patikeOmot {
+  width: 60%;
+  height: 60%;
+  overflow: hidden;
+  position: relative;
+}
+
+body .omotD #prvirow #col10 .slikaPatike {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+body .omotD #prvirow #col10 .UpperSlikaPatike {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+body .omotD #prvirow #col10 .SwooshSlikaPatike {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+body .omotD #prvirow #col10 .OutsoleSlikaPatike {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+body .omotD #prvirow #col10 .MidsoleSlikaPatike {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+body .omotD #prvirow #col2 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+
+body .omotD #prvirow #col2 .birajDeo {
+  height: 100%;
+}
+
+body .omotD #prvirow #col2 .opcija {
+  height: 20%;
+  border-top: 1px ridge rgba(255, 255, 255, 0.8);
+}
+
+body .omotD #prvirow #col2 .img-responsive {
+  height: 100%;
+  width: auto;
+}
+
+body .omotD #prvirow #col2 #upper:hover, body .omotD #prvirow #col2 #Midsole:hover, body .omotD #prvirow #col2 #Swoosh:hover, body .omotD #prvirow #col2 #Outsole:hover {
+  background-color: #e7e7e7;
+}
+
+body .omotD #prvirow #col2 .birajBoju {
+  position: absolute;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  right: 0;
+  width: 0%;
+  display: block;
+  top: 0;
+  margin-left: 100;
+  visibility: hidden;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+
+body .omotD #prvirow #col2 .birajBoju .opisBoje {
+  font-weight: 300;
+  padding: 3px;
+}
+
+body .omotD #prvirow #col2 .birajBoju .boja {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #9c9c9c;
+}
+
+body .omotD #prvirow #col2 .birajBoju .lightBlue {
+  background-color: #12adf5;
+}
+
+body .omotD #prvirow #col2 .birajBoju #LightBlue:hover, body .omotD #prvirow #col2 .birajBoju #DarkBlue:hover, body .omotD #prvirow #col2 .birajBoju #Red:hover, body .omotD #prvirow #col2 .birajBoju #Grey:hover, body .omotD #prvirow #col2 .birajBoju #Black:hover, body .omotD #prvirow #col2 .birajBoju #White:hover {
+  background-color: #e7e7e7;
+}
+
+body .omotD #prvirow #col2 .birajBoju .darkBlue {
+  background-color: #1247f5;
+}
+
+body .omotD #prvirow #col2 .birajBoju .Red {
+  background-color: #c70707;
+}
+
+body .omotD #prvirow #col2 .birajBoju .Grey {
+  background-color: #a0a0a0;
+}
+
+body .omotD #prvirow #col2 .birajBoju .Black {
+  background-color: #0a0101;
+}
+
+body .omotD #prvirow #col2 .birajBoju .White {
+  background-color: #ffffff;
+}
+
+body .omotD #prvirow #col2 .birajBoju #izaberiBoju {
+  height: 10%;
+  width: 100%;
+}
+
+body .omotD #prvirow #col2 .right {
+  width: 100%;
+  visibility: visible;
+  -webkit-box-shadow: 8px 8px 20px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 20px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+body .omotD #drugirow {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 10%;
+}
+
+body .omotD #drugirow .done {
+  width: 20em;
+  padding: 0.5em;
+}
+
+body #omotMeni {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 99;
+  height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 3em !important;
+  }
+  #StanJordan {
+    margin-top: 30px;
+  }
+  .AFJordan {
+    width: 200px !important;
+  }
+  .gornji {
+    margin-top: 86px;
+  }
+  #col10 {
+    height: 80% !important;
+  }
+  #col2 {
+    height: 20% !important;
+  }
+  #col2 .birajDeo, #col2 .birajBoju {
+    height: auto !important;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #col2 .birajBoju {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    height: auto;
+  }
+  #col2 .birajBoju .opcija {
+    padding: 40px 10px;
+    height: 100%;
+  }
+  #col2 .birajBoju .opcija .opisBoje {
+    display: none;
+  }
+  #col2 #izaberiBoju {
+    width: 15% !important;
+  }
+  #AuthorText h2 {
+    font-size: 2em;
+  }
+  #AuthorText p {
+    margin: 0px !important;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 2em !important;
+  }
+  #StanJordan {
+    margin-top: 100px;
+  }
+  #patikeOmot {
+    margin-top: 100px !important;
+  }
+  .smanji {
+    width: 80px !important;
+  }
+  .birajBoju {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    height: auto;
+  }
+  .birajBoju .boja {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .birajBoju #izaberiBoju {
+    font-size: 10px;
+  }
+  .birajBoju .opcija {
+    padding: 40px 10px;
+    height: 100%;
+  }
+  .birajBoju .opcija .opisBoje {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
